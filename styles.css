@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Roboto;
+    background : url(https://wallpaperaccess.com/download/dark-lightning-2750693); 
+    color: white;
+  }
+  
+  form{
+    margin: 50px auto;
+    max-width: 600px;
+    min-width: 300px;
+    background-color: #1b1b32;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  #title , #description{
+    text-align: center;
+  }
+  
+  label{
+    display: block;
+    margin: 30px 0;
+  }
+  
+  input , textarea{
+    width: 100%;
+  }
+  
+  .inline{
+    width: unset;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  #text-area{
+    height: 100px;
+    padding: 0p;
+  }
+  
+  #submit{
+    margin: 20px 0 0 0;
+    background-color: lightgreen;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    font-family: Roboto;
+  }
+  

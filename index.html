@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <h1 id="title">Coding For Nobody - Survey Form</h1>
+    <p id="description">Those who fill random forms on Internet could be..... - Socrates</p>
+
+    <form id="survey-form">
+
+      <label for="name" id="name-label">Name<input id="name" type="text" placeholder="Enter Your Name" required></label>
+      <label for="email" id="email-label">E-mail<input id="email" type="email" placeholder="Enter Your Email Id" required></label>
+      <label for="number" id="number-label">Reddit Karma<input id="number" type="number" min="0" max="9000" placeholder="Your reddit karma (p.s. not over 9000)"></label>
+ 
+      <p>Would suggest a career in tech to others?</p>
+      <select id="dropdown">
+        <option>select one applicable</option>
+        <option>for sure</option>
+        <option>no market is down</option>
+        <option>it's not good for health</option>
+        <option>i mind my own business</option>
+      </select>
+
+      <p>Do you like to code ?</p>
+      <label for="of-course"><input class="inline" type="radio" value="of-course" id="of-course" name="like">Of-Course</label>
+      <label for="maybe"><input id="maybe" type="radio" value="maybe" name="like" class="inline">Maybe</label>
+      <label for="definitely"><input type="radio" value="definitely" id="definitely" name="like" class="inline">Definitely</label>
+
+      <p>What is your speciality ?</p>
+      <label for="front"><input id="front" value="front-end" type='checkbox' class="inline">Front End</label>
+      <label for="back"><input id="back" value="back-end" type="checkbox" class="inline">Back End</label>
+      <label for="ops"><input id='ops' value="Devops" type="checkbox" class="inline">DevOps</label>
+      <label for="noon"><input id="noob" value="noob" type="checkbox" class="inline">Noob
+
+      <p>Tell us why you started coding<p>
+      <textarea id="text-area" type="textarea" placeholder="I hate coding because..........."></textarea>
+
+      <input type="submit" id="submit">
+
+    </form>
+  </body>
+</html>
